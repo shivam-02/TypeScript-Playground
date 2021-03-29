@@ -1,0 +1,13 @@
+var arr = [1, 2, 3, 4, 5];
+var myarr;
+myarr = arr;
+myarr = [5, 6, 7];
+myarr.push(9);
+//myarr.push(false);
+//myarr=["string","abc"];
+var a;
+a = myarr.pop();
+//var b:string;
+//b=myarr.pop();
+var ab = [1, true];
+var cd = [1, "shivam", false];
