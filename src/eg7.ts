@@ -14,3 +14,5 @@ var person:Person=new Person();
 person.firstName="Shivam";
 console.log(person);
 console.log(person.getFullName());
+
+export default Person;

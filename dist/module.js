@@ -12,4 +12,3 @@ function saveInventoryItem(item) {
 }
 var item = getInventoryItem(trackingNumber);
 //item.createdDate=new Date();
-saveInventoryItem(item);

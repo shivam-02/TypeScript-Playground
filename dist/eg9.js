@@ -33,7 +33,11 @@ var Programmer = /** @class */ (function (_super) {
         console.log("Hello,World");
         _super.prototype.greet.call(this);
     };
+    Programmer.prototype.greetLikeNormal = function () {
+        console.log("Hi,there");
+    };
     return Programmer;
 }(Insan));
 var aProgrammer = new Programmer();
 aProgrammer.greet();
+// aProgrammer.greetLikeNormal();  wrong 
